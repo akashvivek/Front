@@ -1,0 +1,56 @@
+
+#triangle{
+    visibility: hidden;
+}
+#square{
+    visibility: hidden;
+}
+#plus{
+    visibility: hidden;
+}
+#wave{
+    visibility: hidden;
+}
+#dotcircle{
+    visibility: hidden;
+}
+#linecircle{
+    visibility: hidden;
+}
+
+
+@media (min-width:700px) {
+    #triangle{
+        visibility: visible;
+    }
+    #square{
+        visibility: visible;
+    }
+    #plus{
+        visibility: visible;
+    }
+    #wave{
+        visibility: visible;
+    }
+    #dotcircle{
+        visibility: visible;
+    }
+    #linecircle{
+        visibility: visible;
+    }
+}
+
+
+
+#img1{
+    width: 300px;
+    height: 200px;
+}
+#img2{
+    width: 300px;
+    height: 200px;
+}
+#img3{
+    width: 300px;
+    height: 200px;
+}

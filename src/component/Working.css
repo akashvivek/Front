@@ -1,0 +1,86 @@
+
+
+#triangle{
+    visibility: hidden;
+}
+#square{
+    visibility: hidden;
+}
+#plus{
+    visibility: hidden;
+}
+#wave{
+    visibility: hidden;
+}
+#dotcircle{
+    visibility: hidden;
+}
+#linecircle{
+    visibility: hidden;
+}
+
+@media (min-width:700px) {
+    #triangle{
+        visibility: visible;
+    }
+    #square{
+        visibility: visible;
+    }
+    #plus{
+        visibility: visible;
+    }
+    #wave{
+        visibility: visible;
+    }
+    #circle{
+        visibility: visible;
+    }
+    #linecircle{
+        visibility: visible;
+    }
+    #triangle{
+    visibility: hidden;
+}
+#square{
+    visibility: hidden;
+}
+#plus{
+    visibility: hidden;
+}
+#wave{
+    visibility: hidden;
+}
+#dotcircle{
+    visibility: hidden;
+}
+#linecircle{
+    visibility: hidden;
+}
+#circleo{
+    visibility: hidden;
+}
+
+@media (min-width:700px) {
+    #triangle{
+        visibility: visible;
+    }
+    #square{
+        visibility: visible;
+    }
+    #plus{
+        visibility: visible;
+    }
+    #wave{
+        visibility: visible;
+    }
+    #dotcircle{
+        visibility: visible;
+    }
+    #linecircle{
+        visibility: visible;
+    }
+    #circleo{
+        visibility: visible;
+    }
+}
+}

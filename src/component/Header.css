@@ -1,0 +1,174 @@
+/* @keyframes leri {
+    50%{
+        transform: translateX(25px);
+    }
+    100%{
+        transform: translateX(0px);
+    } 
+}
+
+.left{
+    animation: leri 5s infinite;
+    position: absolute;
+    top: 34%;
+    left: 20%;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.right{
+    animation: leri 5s infinite;
+    position: absolute;
+    top: 80%;
+    left: 72%;
+}
+
+#main-banner {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    height: 805px;
+}
+
+#main-banner:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-image: url(../assets/main-banner/shape1.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100%;
+    z-index: -1;
+}
+
+
+#triangle{
+    visibility: hidden;
+}
+#square{
+    visibility: hidden;
+}
+#plus{
+    visibility: hidden;
+}
+#wave{
+    visibility: hidden;
+}
+
+@media (min-width:700px) {
+    #triangle{
+        visibility: visible;
+    }
+    #square{
+        visibility: visible;
+    }
+    #plus{
+        visibility: visible;
+    }
+    #wave{
+        visibility: visible;
+    }
+    .left{
+        visibility: visible;
+    }
+}
+
+html, body{
+width:100%;
+overflow-x:hidden;
+} */
+
+
+@keyframes leri {
+    50%{
+        transform: translateX(25px);
+    }
+    100%{
+        transform: translateX(0px);
+    } 
+}
+
+.left{
+    animation: leri 5s infinite;
+    position: absolute;
+    top: 34%;
+    left: 20%;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.right{
+    animation: leri 5s infinite;
+    position: absolute;
+    top: 80%;
+    left: 72%;
+}
+
+#main-banner {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    height: 805px;
+}
+
+#main-banner:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-image: url(../assets/main-banner/shape1.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100%;
+    z-index: -1;
+}
+
+
+#triangle{
+    visibility: hidden;
+}
+#square{
+    visibility: hidden;
+}
+#plus{
+    visibility: hidden;
+}
+#wave{
+    visibility: hidden;
+}
+
+@media (min-width:700px) {
+    #triangle{
+        visibility: visible;
+    }
+    #square{
+        visibility: visible;
+    }
+    #plus{
+        visibility: visible;
+    }
+    #wave{
+        visibility: visible;
+    }
+    .left{
+        visibility: visible;
+    }
+}
+
+html, body{
+width:100%;
+overflow-x:hidden;
+}
