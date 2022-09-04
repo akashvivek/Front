@@ -2,7 +2,7 @@
   "name": "portfolio1",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://13.235.31.184:0710",
+  "proxy": "http://3.108.227.109:0710",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
